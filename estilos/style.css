@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fundamentos';
+    src: url(../fontes/mulled-wine-regular.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: white url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #446800;
+    padding: 20px;
+    text-align: center;
+    
+}
+header > h1{
+    padding: 10px;
+    font-family: fundamentos, Arial, Helvetica, sans-serif;
+    display: inline;
+}
+menu#imenu{
+    background-color: #446800;
+    position: left;
+    height: 44px;
+    width: 100%;
+    margin: 0px;
+    
+    
+}
+
+span#burguer{
+    background-color: #446800;
+    color: white;
+    font-size: 2.5em;
+    margin-left: 25px;
+    display: inline;
+    cursor: pointer;
+    height: 44px;
+    
+    
+}
+span#burguer:hover{
+    
+    color: black;
+}
+a#casa{
+    text-decoration: none;
+    color: white;
+    display: none;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+    box-shadow: -1px -1px 5px black;
+    
+}
+select#iselect{
+    background-color: #446800;
+    display: none;
+    color: white;
+    
+    box-shadow: -1px -1px 5px black;
+    font-size: 1.4em;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+
+}
+select > option{
+    border: none;
+}
+main{
+    
+    background-color: #446800a1;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
