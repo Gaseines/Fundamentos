@@ -4,6 +4,10 @@
     font-family: 'fundamentos';
     src: url(../fontes/mulled-wine-regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'roboto';
+    src: url(../fontes/Roboto-Bold.ttf);
+}
 
 *{
     margin: 0px;
@@ -18,8 +22,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: #446800;
-    padding: 20px;
+    background-image: linear-gradient(to bottom, black,  #253800);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px;
     text-align: center;
     
 }
@@ -27,19 +34,19 @@ header > h1{
     padding: 10px;
     font-family: fundamentos, Arial, Helvetica, sans-serif;
     display: inline;
+    color: white;
 }
-menu#imenu{
-    background-color: #446800;
-    position: left;
-    height: 44px;
-    width: 100%;
-    margin: 0px;
-    
-    transition: width 0.5s;
+
+
+
+div#backBurguer{
+    background-image: linear-gradient(to bottom, #253800, #446800);
+    padding: 5px 0px 0px 0px;
+    box-shadow: 1px 5px 5px -3px rgba(0, 0, 0, 0.589);
 }
 
 span#burguer{
-    background-color: #446800;
+    
     color: white;
     font-size: 2.5em;
     margin-left: 25px;
@@ -48,48 +55,113 @@ span#burguer{
     height: 44px;
     
     
+    
 }
 span#burguer:hover{
     
     color: black;
 }
+
+menu#imenu{
+    background-color: #446800;
+    position: left;
+    height: 100%;
+    width: 100px;
+    margin: 0px;
+    display: none;
+    float: left;
+    padding: 20px 0px;
+    transition: display 1s;
+    box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
+}
+
+
+
 a#casa{
     text-decoration: none;
     color: white;
-    display: none;
+    display: block;
     padding: 10px 0px 10px 0px;
     text-align: center;
-    margin-top: 20px;
+    background-color: #517c02;
     font-size: 1.4em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
-    box-shadow: -1px -1px 5px black;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.459);
     
 }
 select#iselect{
-    background-color: #446800;
-    display: none;
+    background-color: #517c02;
     color: white;
-    
-    box-shadow: -1px -1px 5px black;
+    appearance: none;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.459);
     font-size: 1.4em;
     padding: 10px 0px 10px 0px;
     width: 100%;
     margin-top: 10px;
     text-align: center;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    
+    
 
 }
-select > option{
-    border: none;
+
+option.sctBk{
+    display: none;
+    
+
 }
-main{
+
+option.estiloopt{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.596);
+    text-decoration: underline;
+}
+
+section#home{
     
     background-color: #446800a1;
-    width: 65%;
-    height: 70%;
+    width: 80%;
+    height: 700px;
     margin: auto;
-    text-align: center;
     margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
 }
+section#home > h1{
+    font-size: 2.0em;
+    text-align: center;
+}
+section#home > h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+img.imgHome{
+    width: 35px;
+    margin-top: 5px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+a.aredes{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.0em;
+    color: black;
+    font-weight: bold;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    
+}
+a.aredes:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+ul#listahome{
+    list-style: none;
+}
+

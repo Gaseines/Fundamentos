@@ -8,32 +8,47 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Fundamentos</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
     <header>
-        <h1>Fundamentos</h1>
+        <h1> Fundamentos</h1>
     </header>
-    <menu id="imenu">
+    <div id="backBurguer">
         <span class="material-symbols-outlined" id="burguer" onclick="Menu()">
             menu
             </span>
+    </div>
+    <menu id="imenu">
+        
         <a href="#" id="casa">Home</a>
         <select name="select" id="iselect">
-            <option value="cl">Ciclos</option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+            <option value="cl" class="sctBk">Cliclos &darr;</option>
+            <option value="1" class="estiloopt">Temas Panorâmicosㅤ</option>
+            <option value="2" class="estiloopt">Jesus, sua vida e sua obraㅤ</option>
+            <option value="3" class="estiloopt">A volta de Jesus</option>
+            <option value="4" class="estiloopt">Jesus é a porta do reino</option>
+            <option value="5" class="estiloopt">O espírito Santo</option>
+            <option value="6" class="estiloopt">O Deus pai</option>
+            <option value="7" class="estiloopt"></option>
+            <option value="8" class="estiloopt"></option>
         </select>
     </menu>
     <main id="imain">
-        <section>
+        <section id="home">
             <h1>Seja bem vindo!</h1>
-            <p></p>
+            <h2>Nos acompanhe tambem em:</h2>
+            <ul id="listahome">
+                <li><img src="imagens/youtube.png" alt="" class="imgHome"><a href="https://www.youtube.com/@coffeewithfriends9548/streams" target="_blank" class="aredes">Coffee with Friends</a></li>
+
+                <li><img src="imagens/youtube.png" alt="" class="imgHome"><a href="https://www.youtube.com/podcastfundamentos" target="_blank" class="aredes">Podcast Fundamentos</a></li>
+
+                <li><img src="imagens/youtube.png" alt="" class="imgHome"><a href="https://www.youtube.com/@FundamentosMe" target="_blank" class="aredes">Fundamentos</a></li>
+
+                <li><img src="imagens/instagram (2).png" alt="" class="imgHome"><a href="https://www.instagram.com/fundamentos.me/" target="_blank" class="aredes">Fundamentos</a></li>
+
+                <li><img src="imagens/facebook.png" alt="" class="imgHome"><a href="https://www.facebook.com/fundamentos.me" target="_blank" class="aredes">Fundamentos</a></li>
+            </ul>
         </section>
     </main>
     <script src="scripts/script.js"></script>
