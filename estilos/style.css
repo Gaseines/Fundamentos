@@ -69,10 +69,12 @@ menu#imenu{
     width: 100px;
     margin: 0px;
     float: left;
-    padding: 0px 0px;
-    box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
     position: relative;
     z-index: 1;
+    padding: 0px 0px;
+    box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
+
+
 
     transition-timing-function: linear;
     transition-duration: 0.5s;
@@ -155,7 +157,9 @@ option.estiloopt{
 }
 
 section#home{
-    
+    float: none;
+    position: relative;
+    z-index: 0;
     background-color: #446800a1;
     width: 80%;
     height: 570px;
