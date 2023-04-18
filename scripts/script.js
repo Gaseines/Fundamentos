@@ -5,7 +5,7 @@ function mudouTamano(){
     var ciclos = document.getElementById('ciclos')
     if(window.innerWidth >= 600){
         menu.style.width = '100%'
-        menu.style.height = '50px'
+        menu.style.height = '35px'
         home.style.display = 'inline'
         ciclos.style.display = 'inline'
     }else{
