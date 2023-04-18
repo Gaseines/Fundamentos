@@ -1,16 +1,21 @@
 function Menu(){
-    var casa = document.getElementById('imenu')
     var home = document.getElementById('casa')
-    var select = document.getElementById('iselect')
-    var main = document.getElementById('imain')
     var menu = document.getElementById('imenu')
     var sectionRedes = document.getElementById('home')
-    if(menu.style.display == 'block'){
-        menu.style.display = 'none'
+    var ciclos = document.getElementById('ciclos')
+
+    if(menu.style.height == '100%'){
+        menu.style.padding = '0px 0px'
+        menu.style.height = '0px'
+        home.style.display = 'none'
+        ciclos.style.display = 'none'
         sectionRedes.style.width = '80%'
         
     }else{
-        menu.style.display = 'block'
+        menu.style.padding = '20px 0px'
+        menu.style.height = '100%'
+        home.style.display = 'block'
+        ciclos.style.display = 'block'
         sectionRedes.style.width = '90%'
     }
 }
