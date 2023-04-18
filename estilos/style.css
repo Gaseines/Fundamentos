@@ -77,7 +77,7 @@ menu#imenu{
 
 
 
-a#casa{
+p#casa{
     text-decoration: none;
     color: white;
     display: block;
@@ -88,22 +88,50 @@ a#casa{
     box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.459);
     
 }
-select#iselect{
-    background-color: #517c02;
-    color: white;
-    appearance: none;
-    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.459);
-    font-size: 1.4em;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-    margin-top: 10px;
-    text-align: center;
-    appearance: none;
-    border: none;
-    cursor: pointer;
-    
-    
 
+p#casa:hover{
+    background-color: #365002;
+    cursor: pointer;
+}
+
+p#ciclos{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color: #517c02;
+    font-size: 1.4em;
+    box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.459);
+    margin-top: 10px;
+}
+
+p#ciclos:hover{
+    background-color: #365002;
+    cursor: pointer;
+}
+
+div#opcoes{
+    background-color: #213301de;
+    font-size: 1.1em;
+    color: white;
+    padding: 10px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    width:270px;
+    display: none;
+}
+p.txtopc{
+    padding: 10px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.555);
+}
+p.txtopc:hover{
+    background-color: #406402de;
+    cursor: pointer;
 }
 
 option.sctBk{
@@ -126,7 +154,7 @@ section#home{
     
     background-color: #446800a1;
     width: 80%;
-    height: 700px;
+    height: 570px;
     margin: auto;
     margin-top: 30px;
     padding: 10px;

@@ -14,3 +14,18 @@ function Menu(){
         sectionRedes.style.width = '90%'
     }
 }
+
+function clickOpc(){
+    var btn = document.getElementById('ciclos')
+    var opcoes = document.getElementById('opcoes')
+
+    if(opcoes.style.display == 'none'){
+        opcoes.style.display = 'block'
+        btn.innerHTML = 'Ciclos &uarr;'
+    }else{
+        opcoes.style.display = 'none'
+        btn.innerHTML = 'Ciclos &darr;'
+    }
+}
+
+
