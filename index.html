@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body >
+<body onresize="mudouTamano()">
     <header>
         <h1> Fundamentos</h1>
     </header>
@@ -22,7 +22,7 @@
     <menu id="imenu">
         
         <p id="casa">Home</p>
-        <p id="ciclos" onclick="clickOpc()">Ciclos &darr;</p>
+        <p id="ciclos" onmouseup="clickOpc()">Ciclos &darr;</p>
         <div id="opcoes">
             <p class="txtopc">Temas Panorâmico</p>
             <p class="txtopc">Jesus, sua vida e sua obra</p>

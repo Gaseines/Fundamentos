@@ -71,6 +71,8 @@ menu#imenu{
     float: left;
     padding: 0px 0px;
     box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
+    position: relative;
+    z-index: 1;
 
     transition-timing-function: linear;
     transition-duration: 0.5s;
