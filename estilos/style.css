@@ -35,6 +35,7 @@ header > h1{
     font-family: fundamentos, Arial, Helvetica, sans-serif;
     display: inline;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -164,7 +165,7 @@ option.estiloopt{
                                                    /*HOME*/
 
 section#home{
-    display: none;
+    display: block;
     float: none;
     position: relative;
     background-color: #446800a1;
@@ -250,7 +251,7 @@ p.lista:hover{
 }
 
 #umUm{
-    display: block;
+    display: none;
     float: none;
     position: relative;
     background-color: #f4fae9a1;
