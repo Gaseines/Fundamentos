@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body onresize="mudouTamano()">
+<body onresize="mudouTamano()" onclick="bodyClique()">
     <header>
         <h1> Fundamentos</h1>
     </header>
@@ -21,10 +21,10 @@
     </div>
     <menu id="imenu">
         
-        <p id="casa">Home</p>
+        <p id="casa" onclick="cliqueHome()">Home</p>
         <p id="ciclos" onmouseup="clickOpc()">Ciclos &darr;</p>
         <div id="opcoes">
-            <p class="txtopc">Temas Panorâmico</p>
+            <p class="txtopc" onclick="cliqueUm()">Temas Panorâmicos</p>
             <p class="txtopc">Jesus, sua vida e sua obra</p>
             <p class="txtopc">A volta de Jesus</p>
             <p class="txtopc">Jesus é a porta do reino</p>
@@ -35,8 +35,8 @@
             <p class="txtopc">Caminhando como sacerdote</p>
         </div>
     </menu>
-    <main id="imain">
-        <section id="home">
+    <main id="imain" onclick="cliqueFora()">
+        <section id="home" onclick="cliqueFora()">
             <h1>Seja bem vindo!</h1>
             <h2>Nos acompanhe tambem em:</h2>
             <ul id="listahome">
@@ -50,6 +50,14 @@
 
                 <li><img src="imagens/facebook.png" alt="" class="imgHome"><a href="https://www.facebook.com/fundamentos.me" target="_blank" class="aredes">Fundamentos</a></li>
             </ul>
+        </section>
+        <section id="pri"onclick="cliqueFora()">
+            <h1><img src="imagens/1.png" alt="" class="numero"><br>Temas Panorâmicos</h1>
+            <div class="container"><img src="imagens/1.png" alt="" class="numero"><p class="lista">O conselho de Deus</p></div>
+            <div class="container"><img src="imagens/2.png" alt="" class="numero"><p class="lista">Aprender, crescer e servir</p></div>
+            <div class="container"><img src="imagens/3.png" alt="" class="numero"><p class="lista">Porque Jesus veio ao mundo?</p></div>
+            <div class="container"><img src="imagens/4.png" alt="" class="numero"><p class="lista">O nascimento da igreja</p></div>
+            <div class="container"><img src="imagens/5.png" alt="" class="numero"><p class="lista">Porta, caminho e alvo</p></div>
         </section>
     </main>
     <script src="scripts/script.js"></script>

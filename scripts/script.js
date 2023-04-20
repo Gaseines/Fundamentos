@@ -1,3 +1,9 @@
+function cliqueFora(){
+    var opcoes = document.getElementById('opcoes')
+    if(opcoes.style.display = 'block'){
+        opcoes.style.display = 'none'
+    }
+}
 function mudouTamano(){
     var home = document.getElementById('casa')
     var menu = document.getElementById('imenu')
@@ -62,4 +68,34 @@ function clickOpc(){
     }
 }
 
+function cliqueHome(){
+    var sectionPri = document.getElementById('pri')
+    var sectionRedes = document.getElementById('home')
+
+
+    if(sectionRedes.style.display == 'block'){
+        
+        
+    }else{
+        
+            sectionPri.style.display = 'none'
+            sectionRedes.style.display = 'block'
+        
+    }
+}
+
+function cliqueUm(){
+    var sectionPri = document.getElementById('pri')
+    var sectionRedes = document.getElementById('home')
+
+    if(sectionPri.style.display == 'block'){
+        
+        
+    }else{
+        
+            sectionRedes.style.display = 'none'
+            sectionPri.style.display = 'block'
+        
+    }
+}
 

@@ -19,7 +19,7 @@
     p#casa{
        background-color: #233500;
         display: inline;
-        padding: 10px;
+        padding: 8px;
         margin-left: 50px;
         box-shadow: none;
         /*border-bottom: 1px solid black;*/
@@ -28,7 +28,7 @@
     p#ciclos{
         background-color: #233500;
         display: inline;
-        padding: 10px;
+        padding: 8px;
         margin-left: 30px;
         box-shadow: none;
         border-radius: 5px;
@@ -41,6 +41,9 @@
     section#home{
      max-width: 720px;
     }
+    section#pri{
+        max-width: 720px;
+    }
     div#opcoes{
         display: block;
         position:fixed;
@@ -52,6 +55,9 @@
     }
     section#home{
         height: 700px;
+    }
+    .container img{
+        margin-left: calc(25% - 50px);
     }
 }
 
