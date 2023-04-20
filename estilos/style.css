@@ -38,6 +38,27 @@ header > h1{
 }
 
 
+                                                    /*MENU*/
+
+
+menu#imenu{
+    background-color: #446800;
+    position: left;
+    height: 0px;
+    width: 100px;
+    margin: 0px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    padding: 0px 0px;
+    box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
+
+
+
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    
+}
 
 div#backBurguer{
     background-image: linear-gradient(to bottom, #253800, #446800);
@@ -60,25 +81,6 @@ span#burguer{
 span#burguer:hover{
     
     color: black;
-}
-
-menu#imenu{
-    background-color: #446800;
-    position: left;
-    height: 0px;
-    width: 100px;
-    margin: 0px;
-    float: left;
-    position: relative;
-    z-index: 1;
-    padding: 0px 0px;
-    box-shadow: 5px 1px 5px -3px rgba(0, 0, 0, 0.404);
-
-
-
-    transition-timing-function: linear;
-    transition-duration: 0.5s;
-    
 }
 
 
@@ -158,6 +160,9 @@ option.estiloopt{
     text-decoration: underline;
 }
 
+
+                                                   /*HOME*/
+
 section#home{
     display: block;
     float: none;
@@ -230,6 +235,7 @@ p.lista{
     font-size: 1.2em;
     margin-left: 20px;
     cursor: pointer;
+    
 }
 p.lista:hover{
     text-decoration: underline;
