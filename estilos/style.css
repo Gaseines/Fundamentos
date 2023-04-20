@@ -164,10 +164,9 @@ option.estiloopt{
                                                    /*HOME*/
 
 section#home{
-    display: block;
+    display: none;
     float: none;
     position: relative;
-    z-index: 0;
     background-color: #446800a1;
     width: 80%;
     height: 570px;
@@ -209,11 +208,13 @@ ul#listahome{
     list-style: none;
 }
 
+
+                                               /*PRIMEIRA PAGINA*/
+
 #pri{
     display: none;
     float: none;
     position: relative;
-    z-index: 0;
     background-color: #f4fae9a1;
     width: 80%;
     height: 600px;
@@ -247,4 +248,19 @@ p.lista:hover{
     text-align: center;
     
 }
+
+#umUm{
+    display: block;
+    float: none;
+    position: relative;
+    background-color: #f4fae9a1;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
 

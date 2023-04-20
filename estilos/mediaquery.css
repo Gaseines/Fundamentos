@@ -44,6 +44,12 @@
     section#pri{
         max-width: 720px;
     }
+    section#umUm{
+        max-width: 720px;
+    }
+
+
+
     div#opcoes{
         display: block;
         position:fixed;
