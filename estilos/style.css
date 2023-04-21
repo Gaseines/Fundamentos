@@ -250,6 +250,9 @@ p.lista:hover{
     text-align: center;
     
 }
+
+                                               /*PDFS*/
+
 .capas{
     display: none;
     float: none;
@@ -272,15 +275,21 @@ p.lista:hover{
     
 }
 .linkPDF{
+    
     text-align: center;
     margin-top: 5px;
     padding: 10px;
 }
 .linkPDF a{
+    border-radius: 5px;
+    padding: 5px;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
     text-decoration: none;
     color: black;
 }
 .linkPDF a:hover{
+    
     text-decoration: underline;
 }
 .cantoDcapas{
