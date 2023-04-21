@@ -313,7 +313,7 @@ p.lista:hover{
     padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
-    transition: 1s;
+    
 }
 .ultPaginas{
     display: none;
@@ -326,7 +326,7 @@ p.lista:hover{
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
-    transition: 1s;
+    
 }
 .ultPaginas img{
     border-radius: 10px;
