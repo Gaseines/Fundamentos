@@ -38,9 +38,10 @@ function Menu(){
     if(menu.style.height == '100%'){
         menu.style.padding = '0px 0px'
         menu.style.height = '0px'
+        menu.style.position = 'none'
         home.style.display = 'none'
         ciclos.style.display = 'none'
-        sectionRedes.style.width = '80%'
+        
         opcoes.style.display = 'none'
         
     }
@@ -48,9 +49,10 @@ function Menu(){
         menu.style.padding = '20px 0px'
         menu.style.width = '100px'
         menu.style.height = '100%'
+        menu.style.position = 'absolute'
         home.style.display = 'block'
         ciclos.style.display = 'block'
-        sectionRedes.style.width = '90%'
+        
     }
 }
 
