@@ -14,7 +14,7 @@
     padding: 0px;
 }
 body{
-    height: 100vh;
+    height: 900px;
     background: white url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -326,6 +326,7 @@ p.lista:hover{
     margin: auto;
     margin-top: 30px;
     border-radius: 10px;
+    
     box-shadow: 1px 1px 5px black;
     
 }

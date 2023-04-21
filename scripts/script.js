@@ -46,7 +46,7 @@ function Menu(){
     var ciclos = document.getElementById('ciclos')
     var opcoes = document.getElementById('opcoes')
 
-    if(menu.style.height == '100%'){
+    if(menu.style.height == '721px'){
         menu.style.padding = '0px 0px'
         menu.style.height = '0px'
         menu.style.position = 'none'
@@ -59,7 +59,7 @@ function Menu(){
     else{
         menu.style.padding = '20px 0px'
         menu.style.width = '100px'
-        menu.style.height = '100%'
+        menu.style.height = '721px'
         menu.style.position = 'absolute'
         home.style.display = 'block'
         ciclos.style.display = 'block'
