@@ -44,7 +44,7 @@
     section#pri{
         max-width: 720px;
     }
-    section#umUm{
+    section#oConselhoumUm{
         max-width: 720px;
     }
 
@@ -64,6 +64,9 @@
     }
     .container img{
         margin-left: calc(25% - 50px);
+    }
+    .paginas, .capas{
+        width: 45%;
     }
 }
 
