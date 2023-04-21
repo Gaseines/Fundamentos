@@ -254,32 +254,22 @@ p.lista:hover{
     display: none;
     float: none;
     position: relative;
-    background-color: #F4F8FB;
+    background: linear-gradient(250deg, #F6F7F9 66%, #E3E7DE 50%);
     width: 80%;
-    height: 80%;
+    height: 720px;
     margin: auto;
     margin-top: 30px;
-    padding: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px black;
     transition: 1s;
 }
-.paginas{
-    display: none;
-    float: none;
-    position: relative;
-    background-color: #FFFFFF;
-    width: 80%;
-    height: 80%;
-    margin: auto;
-    margin-top: 30px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px black;
-    transition: 1s;
-}
-#umUm img{
+.capas img{
     width: 100%;
+    border-radius: 10px;
+}
+.paginas img{
+    width: 100%;
+    
 }
 .linkPDF{
     text-align: center;
@@ -294,7 +284,7 @@ p.lista:hover{
 }
 .cantoDcapas{
     background: #F4F8FB url(../imagens/seta-direita.png);
-    background-size: 50%;
+    background-size: 35%;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -310,9 +300,43 @@ p.lista:hover{
     background: linear-gradient(135deg, #eaeaeb 00%, #f4f8fb 50%, rgba(0, 0, 0, 0.363) 50%, #cacaca 60%);
     box-shadow: -2px -2px 5px #21212188;
 }
+.paginas{
+
+    display: none;
+    float: none;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: 1s;
+}
+.ultPaginas{
+    display: none;
+    float: none;
+    position: relative;
+    background: linear-gradient(250deg, #5C753E 65.2%, #6A7E3F 50%);
+    width: 80%;
+    height: 720px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: 1s;
+}
+.ultPaginas img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
 .cantoDpaginas{
     background: transparent url(../imagens/seta-direita.png);
-    background-size: 50%;
+    background-size: 35%;
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -328,5 +352,42 @@ p.lista:hover{
     background: linear-gradient(135deg, #eaeaeb 00%, #f4f8fb 50%, rgba(0, 0, 0, 0.363) 50%, #cacaca 60%);
     box-shadow: -2px -2px 5px #21212188;
 }
+.cantoEpaginas{
+    background: transparent url(../imagens/seta-esquerda.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: calc(100% - 50px);
+    left: 0;
+    border-radius: 00px 10px 0px 10px;
+    transition: 1s, box-shadow 0.2s ;
+}
+.cantoEpaginas:hover{
+    cursor: pointer;
+    background: linear-gradient(225deg, #eaeaeb 00%, #f4f8fb 50%, rgba(0, 0, 0, 0.363) 50%, #cacaca 60%);
+    box-shadow: 2px -2px 5px #21212188;
+}
+.cantoEpaginasV{
+    background: transparent url(../imagens/seta-esquerda.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: calc(100% - 50px);
+    left: 0;
+    border-radius: 00px 10px 0px 10px;
+    transition: 1s, box-shadow 0.2s ;
+}
+.cantoEpaginasV:hover{
+    cursor: pointer;
+    background: linear-gradient(225deg, #eaeaeb 00%, #f4f8fb 50%, rgba(0, 0, 0, 0.363) 50%, #cacaca 60%);
+    box-shadow: 2px -2px 5px #21212188;
+}
+
 
 

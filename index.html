@@ -24,7 +24,7 @@
         <p id="casa" onclick="cliqueHome()">Home</p>
         <p id="ciclos" onmouseup="clickOpc()">Ciclos &darr;</p>
         <div id="opcoes">
-            <p class="txtopc" onclick="cliqueUm()">Temas Panorâmicos</p>
+            <p class="txtopc" onclick="cliqueMenuUm()">Temas Panorâmicos</p>
             <p class="txtopc">Jesus, sua vida e sua obra</p>
             <p class="txtopc">A volta de Jesus</p>
             <p class="txtopc">Jesus é a porta do reino</p>
@@ -35,7 +35,15 @@
             <p class="txtopc">Caminhando como sacerdote</p>
         </div>
     </menu>
+
+    <!----------------------------------------FIM MENU------------------------------------------------->
+
+    <!----------------------------------------CONTEÚDO------------------------------------------------->
+    
     <main id="imain" onclick="cliqueFora()">
+
+    <!----------------------------------------PÁGINA REDES--------------------------------------------->
+        
         <section id="home" onclick="cliqueFora()">
             <h1>Seja bem vindo!</h1>
             <h2>Nos acompanhe tambem em:</h2>
@@ -51,6 +59,9 @@
                 <li><img src="imagens/facebook.png" alt="" class="imgHome"><a href="https://www.facebook.com/fundamentos.me" target="_blank" class="aredes">Fundamentos</a></li>
             </ul>
         </section>
+
+    <!----------------------------------------PRIMEIRO CICLO------------------------------------------->
+
         <section id="pri"onclick="cliqueFora()">
             <h1><img src="imagens/1.png" alt="" class="numero"><br>Temas Panorâmicos</h1>
             <div class="container"><img src="imagens/1.png" alt="" class="numero"><p class="lista" onclick="pdf1Um()">O conselho de Deus</p></div>
@@ -59,22 +70,58 @@
             <div class="container"><img src="imagens/4.png" alt="" class="numero"><p class="lista">O nascimento da igreja</p></div>
             <div class="container"><img src="imagens/5.png" alt="" class="numero"><p class="lista">Porta, caminho e alvo</p></div>
         </section>
-        <section id="oConselhoumUm" class="capas" onclick="cliqueFora()">
-            <div><img src="oConselhodeDeus/Imagem1.jpg" alt=""></div>
-            <p class="linkPDF"><a href="oConselhodeDeus/O conselo de Deus.pdf"type="application/pdf" download="O conselho de Deus.pdf">Baixar conteúdo em PDF</a></p>
-            <div class="cantoDcapas"></div>
-        </section>
-        <section id="oConselhodoisUm" class="paginas" onclick="cliqueFora()">
-            <div><img src="oConselhodeDeus/Imagem2.jpg" alt=""></div>
-            
-            <div class="cantoDpaginas"></div>
-        </section>
-        <section id="oConselhotresUm" class="paginas" onclick="cliqueFora()">
-            <div><img src="oConselhodeDeus/Imagem3.jpg" alt=""></div>
-            
-            <div class="cantoDpaginas"></div>
-        </section>
+
+    <!----------------------------------------PRIMEIRO PDF--------------------------------------------->
+
+<div id="pdfs">
+    <!--CAPA--><section id="oConselhoCapa" class="capas" onclick="cliqueFora()">
+                <div><img src="oConselhodeDeus/capa.jpg" alt=""></div>
+                <p class="linkPDF"><a href="oConselhodeDeus/O conselo de Deus.pdf"type="application/pdf" download="O conselho de Deus.pdf">Baixar conteúdo em PDF</a></p>
+                <div class="cantoDcapas" onclick="oConselhoPagUm()"></div>
+            </section>
+    <!--PAG01--><section id="oConselhoPagUm" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem1.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltCapa()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagDois()"></div>
+    </section>
+    <!--PAG02--><section id="oConselhoPagDois" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem2.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagUm()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagTres()"></div>
+    </section>
+    <!--PAG03--><section id="oConselhoPagTres" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem3.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagDois()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagQuatro()"></div>
+    </section>
+    <!--PAG04--><section id="oConselhoPagQuatro" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem4.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagTres()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagCinco()"></div>
+    </section>
+    <!--PAG05--><section id="oConselhoPagCinco" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem5.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagQuatro()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagSeis()"></div>
+    </section>
+    <!--PAG06--><section id="oConselhoPagSeis" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem6.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagCinco()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagSete()"></div>
+    </section>
+    <!--PAG07--><section id="oConselhoPagSete" class="paginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem7.jpg" alt=""></div>
+        <div class="cantoEpaginas" onclick="oConselhoVoltPagSeis()"></div>
+        <div class="cantoDpaginas" onclick="oConselhoPagOito()"></div>
+    </section>
+    <!--PAG08--><section id="oConselhoPagOito" class="ultPaginas" onclick="cliqueFora()">
+        <div><img src="oConselhodeDeus/imagem8.jpg" alt=""></div>
+        <div class="cantoEpaginasV" onclick="oConselhoVoltPagSete()"></div>
+        
+    </section>        
+</div>
     </main>
     <script src="scripts/script.js"></script>
+    <script src="scripts/conteudos.js"></script>
 </body>
 </html>

@@ -1,7 +1,8 @@
 /*VARIAVEIS*/
     var sectionPri = document.getElementById('pri')
     var sectionRedes = document.getElementById('home')
-    var pdfUmUm = document.getElementById('oConselhoumUm')
+    var pdfUmUm = document.getElementById('oConselhoCapa')
+    var pdfs = document.getElementById('pdfs')
 /*VARIAVEIS*/
 
 
@@ -89,13 +90,16 @@ function cliqueHome(){
         
             sectionPri.style.display = 'none'
             sectionRedes.style.display = 'block'
-            pdfUmUm.style.display = 'none'
+            
+            for (child of pdfs.children){
+                child.style.display = 'none'
+            }
             
         
     }
 }
 
-function cliqueUm(){
+function cliqueMenuUm(){
     var sectionPri = document.getElementById('pri')
     var sectionRedes = document.getElementById('home')
     
@@ -107,18 +111,13 @@ function cliqueUm(){
         
             sectionRedes.style.display = 'none'
             sectionPri.style.display = 'block'
-            pdfUmUm.style.display = 'none'
+            
+            for (child of pdfs.children){
+                child.style.display = 'none'
+            }
             
         
     }
-}
-
-function pdf1Um(){
-    var sectionPri = document.getElementById('pri')
-    var pdfUmUm = document.getElementById('oConselhoumUm')
-
-    sectionPri.style.display = 'none'
-    pdfUmUm.style.display = 'block'
 }
 
 
