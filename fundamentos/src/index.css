@@ -7,6 +7,11 @@
 
 :root{
   --verde: #56731B;
+  --verdeClaro: #f6ffe4;
 }
 
+@font-face {
+  font-family: 'fundamentos';
+  src: url(fonts/Lost\ Wind.otf) format('opentype');
+}
 
