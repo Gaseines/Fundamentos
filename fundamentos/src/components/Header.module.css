@@ -21,7 +21,7 @@
     left: calc(50% - 45px);
     cursor: pointer;
 
-    z-index: 999;
+    z-index: 998;
 }
 
 .container_imgs:hover{

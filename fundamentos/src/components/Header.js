@@ -17,37 +17,35 @@ const Header = () => {
         <img src={arvore} alt="Fundamentos" className={styles.logo} />
 
         {/* Icones */}
-      <a href="/">
-        <img
-          src={youtube}
-          alt="youtube"
-          className={`${styles.icones} ${styles.youtube}`}
-        />
-      </a>
-      <a href="/">
-        <img
-          src={deezer}
-          alt="deezer"
-          className={`${styles.icones} ${styles.deezer}`}
-        />
-      </a>
-      <a href="/">
-        <img
-          src={spotify}
-          alt="spotify"
-          className={`${styles.icones} ${styles.spotify}`}
-        />
-      </a>
-      <a href="/">
-        <img
-          src={ytMusic}
-          alt="ytMusic"
-          className={`${styles.icones} ${styles.ytMusic}`}
-        />
-      </a>
+        <a href="https://www.youtube.com/@FundamentosMe" target="_blank" rel="noopener noreferrer">
+          <img
+            src={youtube}
+            alt="youtube"
+            className={`${styles.icones} ${styles.youtube}`}
+          />
+        </a>
+        <a href="https://www.deezer.com/br/show/2923862?deferredFl=1" target="_blank" rel="noopener noreferrer">
+          <img
+            src={deezer}
+            alt="deezer"
+            className={`${styles.icones} ${styles.deezer}`}
+          />
+        </a>
+        <a href="https://open.spotify.com/show/63ldaJCgHeedjUJpn9k1cT" target="_blank" rel="noopener noreferrer">
+          <img
+            src={spotify}
+            alt="spotify"
+            className={`${styles.icones} ${styles.spotify}`}
+          />
+        </a>
+        <a href="https://music.youtube.com/playlist?list=PLZ6NqiPhv1QPHUsxjZ0aPhtYQ1XWeGAcK" target="_blank" rel="noopener noreferrer">
+          <img
+            src={ytMusic}
+            alt="ytMusic"
+            className={`${styles.icones} ${styles.ytMusic}`}
+          />
+        </a>
       </div>
-
-      
     </div>
   );
 };

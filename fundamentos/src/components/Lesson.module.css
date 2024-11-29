@@ -77,7 +77,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+
 
   overflow-y: hidden;
   height: 0px;
@@ -95,6 +95,7 @@
 .container_links a {
   margin-left: 5px;
   text-decoration: none;
+  color: black;
 }
 
 .container_links a:hover {
@@ -155,6 +156,17 @@
     100% {
     opacity: 1;
     height: 35px;
+  }
+}
+
+@media screen and (max-width: 890px){
+  .container_licoes{
+    z-index: 999;
+  }
+
+  .container_licoes h1{
+    
+    max-width: 280px;
   }
 }
 

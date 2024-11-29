@@ -5,6 +5,17 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html{
+  background-color: var(--verdeClaro);
+}
+
+@media screen and (max-width: 890px){
+  html{
+    overflow-x: hidden;
+    z-index: 998;
+  }
+}
+
 :root{
   --verde: #56731B;
   --verdeClaro: #f6ffe4;
