@@ -34,12 +34,12 @@
 
 .btn1{
     left: 30%;
-    top: calc(50% - 40px);
+    top: 258px;
 }
 
 .btn2{
     right: 30%;
-    top: calc(50% - 40px);
+    top: 258px;
 }
 
 .click1{
@@ -68,23 +68,23 @@
     transition: all 1s ease-in-out;  
 }
 
-.container_links{
+.container_ciclos{
     display: flex;
     flex-direction: column;
     position: absolute;
 }
 
-.linksOS{
+.ciclosOS{
     top: 100px;
     left: 30px;
 }
 
-.linksNC{
+.ciclosNC{
     top: 100px;
     right: 30px;
 }
 
-.links{
+.ciclos{
     margin: 5px 0 5px 0;
     background: transparent;
     border: 2px solid transparent;
@@ -99,7 +99,7 @@
     transition: all .5s ease;
 }
 
-.links:hover{
+.ciclos:hover{
     border: 2px solid var(--verde);
 }
 
