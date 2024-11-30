@@ -12,7 +12,7 @@ function App() {
   
   //Verificando se o ciclo foi ativado
   useEffect(() => {
-    if(active){
+    if(active && window.innerWidth < 890){
       document.documentElement.style.overflow = "hidden"
       console.log("deu certo")
     }else{

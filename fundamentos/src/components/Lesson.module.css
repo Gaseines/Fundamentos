@@ -168,5 +168,21 @@
     
     max-width: 280px;
   }
+
+  .container_links a {
+    color: white;
+  }
+  .container_licoes h2{
+    color: white;
+  }
+
+  .container_licoes h2::after{
+    background-color: white;
+  }
+
+  .container_licoes h2:hover .downBlack{
+    opacity: 0;
+  }
+
 }
 
