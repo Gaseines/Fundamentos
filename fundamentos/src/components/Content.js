@@ -13,7 +13,7 @@ import Lesson from "./Lesson";
 import idsOs from "../db/Idos";
 
 //db Novos convertidos
-import idsNC from "../db/Idnc"
+import idsNc from "../db/Idnc"
 
 const Content = ({setActive}) => {
   const [activeOS, setActiveOS] = useState(false);
@@ -101,7 +101,7 @@ const Content = ({setActive}) => {
       {/* Ciclos novos convertidos */}
 
       <div className={`${styles.container_ciclos} ${styles.ciclosNC}`}>
-        {idsNC.map((opc) => (
+        {idsNc.map((opc) => (
           <>
             <button
               key={opc.id}
@@ -117,11 +117,26 @@ const Content = ({setActive}) => {
         ))}
       </div>
 
+        {/* Links Ordem Sequencial */}
       {activeLink && activeOS && (
         <div className={styles.background_licoes}>
           <img src={fechar} alt="Fechar" className={styles.fechar} onClick={() => {setActiveLink(""); setActive(false)}}/>
           <div className={styles.container_licoes}>
             {idsOs.map(
+              (opc) =>
+                opc.id === activeLink &&
+                opc.sub.map((licao) => <Lesson name={licao.name} YTCompleto={licao.linkYTc} SPCompleto={licao.linkSPc} DeezerCompleto={licao.linkDeezerC} YTResumo={licao.linkYTr} SPResumo={licao.linkSPr} DeezerResumo={licao.linkDeezerR} linkPDF={licao.linkPDF}/>)
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Links Novos Convertidos */}
+      {activeLink && activeNC && (
+        <div className={styles.background_licoes}>
+          <img src={fechar} alt="Fechar" className={styles.fechar} onClick={() => {setActiveLink(""); setActive(false)}}/>
+          <div className={styles.container_licoes}>
+            {idsNc.map(
               (opc) =>
                 opc.id === activeLink &&
                 opc.sub.map((licao) => <Lesson name={licao.name} YTCompleto={licao.linkYTc} SPCompleto={licao.linkSPc} DeezerCompleto={licao.linkDeezerC} YTResumo={licao.linkYTr} SPResumo={licao.linkSPr} DeezerResumo={licao.linkDeezerR} linkPDF={licao.linkPDF}/>)
