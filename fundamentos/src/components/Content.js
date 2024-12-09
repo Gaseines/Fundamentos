@@ -34,21 +34,19 @@ const Content = ({setActive}) => {
   const handleClickOS = () => {
     clearAll();
     setActiveNC(false);
-    setActiveOS(true);
+    setActiveOS(!activeOS);
   };
 
   //Escolhendo Novos Convetidos
   const handleClickNC = () => {
     clearAll();
-    setActiveNC(true);
+    setActiveNC(!activeNC);
     setActiveOS(false);
   };
 
   // Clicado em um dos ciclos
   const handleClickLink = (id) => {
     setActiveLink(id);
-    console.log(activeLink);
-
     setActive(true)
 
   };
