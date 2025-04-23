@@ -12,6 +12,7 @@ import ytMusic from "../image/yt_music.png";
 const Header = () => {
   return (
     <div className={styles.header}>
+      
       <div className={styles.container_imgs}>
         {/* Logo */}
         <img src={arvore} alt="Fundamentos" className={styles.logo} />
