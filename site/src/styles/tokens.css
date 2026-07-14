@@ -1,0 +1,42 @@
+/* Design tokens — Fundamentação */
+:root {
+  /* Cores */
+  --color-primary:        #253E0D;
+  --color-primary-hover:  #1D3009;
+  --color-primary-400:    #4C7A26;
+  --color-primary-200:    #A8CC80;
+  --color-primary-100:    #D4EDBA;
+  --color-primary-50:     #EEF7E5;
+
+  --color-bg:     #F2F2F2;
+  --color-card:   #FFFFFF;
+  --color-border: #E3E8DF;
+  --color-muted:  #9CAE94;
+  --color-ink:    #1A1A1A;
+  --color-soft:   #5A6854;
+
+  /* Tipografia */
+  --font-sans: "Inter", -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+
+  /* Espaçamento */
+  --radius-sm:   8px;
+  --radius-card: 14px;
+  --radius-lg:   20px;
+  --radius-pill: 9999px;
+
+  /* Sombras */
+  --shadow-card:  0 1px 3px rgba(37,62,13,.06), 0 1px 2px rgba(37,62,13,.04);
+  --shadow-hover: 0 8px 24px rgba(37,62,13,.10);
+  --shadow-modal: 0 20px 60px rgba(37,62,13,.18);
+
+  /* Transições */
+  --transition-fast:   0.12s ease;
+  --transition-normal: 0.2s ease;
+}
