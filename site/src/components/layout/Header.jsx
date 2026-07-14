@@ -22,7 +22,7 @@ export function Header({ onAbrirMenu, onSelecionarLicao }) {
 
         {/* Marca */}
         <div className="flex items-center gap-2 flex-shrink-0">
-          <img src="/logo.png" alt="Fundamentação" className="h-8 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Fundamentação" className="h-8 w-auto" />
         </div>
 
         {/* Busca */}
